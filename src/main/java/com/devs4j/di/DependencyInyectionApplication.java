@@ -20,7 +20,7 @@ public class DependencyInyectionApplication {
 
 		// Nido nido=context.getBean( Nido.class);
 		// nido.imprimir();
-
+		// Hola!!
 		EnvironmentService environmentService = context.getBean(EnvironmentService.class);
 		log.info("Active environment {}", environmentService.getEnvironment());
 
